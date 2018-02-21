@@ -39,6 +39,7 @@ try {
         'ipaddress' => '10.0.0.1',
         'invoiceDate' => new \DateTime('now'),
         'deliveryDate' => new \DateTime('2016-06-06'), // in case of tickets for an event, use the event date here
+        'orderNumber' => 'inv123456', // In case of End 2 End iDEAL will be used instead of $transactionId on the banking details
         'products' => array(
             array(
                 'id' => 1,
